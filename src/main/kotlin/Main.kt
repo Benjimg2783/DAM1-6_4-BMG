@@ -45,7 +45,7 @@ class CatalogoLibrosXML(private val cargador: String) {
         return mMap
     }
 
-    /*
+    /**
     *
     * @return  Devuelve true si existe, `false` en caso contrario.
     * */
@@ -69,7 +69,7 @@ class CatalogoLibrosXML(private val cargador: String) {
         return existe
     }
 
-    /*
+    /**
       *
       * @return  Devuelve true si existe, `false` en caso contrario.
       * */
@@ -117,7 +117,7 @@ fun main() {
     cat.i(cat.existeLibro(id).toString())
     cat.i(cat.infoLibro(id).toString())
 }
-/*
+/**
 Implementar una clase `CatalogoLibrosXML` con sus métodos y propiedades. Usa los modificadores de acceso adecuado según lo creas conveniente e intenta separar la funcionalidad en métodos que tengan sentido para la clase y que hagan una única cosa.
 ### Propiedades
 - Las que necesites.
